@@ -40,7 +40,7 @@ A collection of **5 advanced SQL queries** that transform raw relational data in
 **Description:** Performs a clean sweep of the data by normalizing strings (names and emails), validating record integrity against active departments, and sampling the result set for testing.
 **Business value:** Ensures exported data is audit-ready and compliant with data governance standards.
 
-![Query result in Toad for Oracle](Toad__For_Oracle.png)
+![Query result in Toad for Oracle](Toad _For_Oracle.png)
 
 ---
 
@@ -68,7 +68,7 @@ Three cooperating layers, mirroring how real procedural code is organized:
 ### Techniques demonstrated
 Explicit cursors (`DECLARE` / `OPEN` / `FETCH` / `CLOSE`, `%NOTFOUND`), local functions and procedures with parameters and return values, `%TYPE`-anchored declarations, `CASE` expressions, `NULL` handling for aggregate edge cases, and defensive exception handling (`WHEN OTHERS` with a guarded `%ISOPEN` cursor close).
 
-![Report output in Oracle SQL Developer](SQL_Developer.png)
+![Report output in Oracle SQL Developer](SQL Developer.png)
 
 ---
 
